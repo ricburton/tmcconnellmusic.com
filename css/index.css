@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-size: 45px;
   line-height: 28px;
   color: #1C1C1C;
@@ -35,7 +35,7 @@ h1 a:hover {
 }
 
 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: #1C1C1C;
@@ -47,6 +47,46 @@ h4 a {
 
 h4 a:hover {
   color: #898989;
+}
+
+#mc_embed_signup {
+  background:#1C1C1C;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color:#ffffff;
+  margin-top: 10px;
+  padding:10px 15px 2px 15px;
+  /*height:110px;*/
+}
+
+#mc_embed_signup h2 {
+  padding:5px 0 0 0;
+  margin:0px;
+}
+
+#mc_embed_signup .email {
+  border: 5px solid white;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background: #1C1C1C;
+  padding: 5px;
+  margin:10px 0px;
+  width:370px;
+}
+
+#mc_embed_signup .button {
+  border: 5px solid white;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background: #1C1C1C;
+  padding: 5px;
+  margin:10px 0px;
+  width:180px;
+}
+
+#mc_embed_signup .response {
+  width:550px;
 }
 
 .profiles {
