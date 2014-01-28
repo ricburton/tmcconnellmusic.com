@@ -18,6 +18,7 @@ html {
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   body {
+    font-family: 'Montserrat', Arial, sans-serif;
     background-image: url('../images/bg@2x.jpg');
     background-size: 1400px 934px;
   }
@@ -53,6 +54,12 @@ h1 a:hover {
   color: #898989;
 }
 
+h2 {
+  color:#1C1C1C;
+  padding:5px 0 0 0;
+  margin:0px;
+}
+
 h4 {
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 12px;
@@ -69,7 +76,7 @@ h4 a:hover {
 }
 
 #mc_embed_signup {
-  background:#1C1C1C;
+  background:none;
   font-family: 'Montserrat', Arial, sans-serif;
   color:#ffffff;
   padding:10px;
@@ -79,28 +86,29 @@ h4 a:hover {
 }
 
 #mc_embed_signup h2 {
+  color:#1C1C1C;
   padding:5px 0 0 0;
   margin:0px;
 }
 
 #mc_embed_signup .email {
-  border: 5px solid white;
+  border:5px solid #1C1C1C;
   font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 30px;
-  color: #ffffff;
-  background: #1C1C1C;
-  padding: 5px;
+  font-size:30px;
+  color:#1C1C1C;
+  background: none;
+  padding:5px;
   margin:10px 0px;
   width:370px;
 }
 
 #mc_embed_signup .button {
-  border: 5px solid white;
+  border:5px solid #1C1C1C;
   font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 30px;
-  color: #ffffff;
-  background: #1C1C1C;
-  padding: 5px;
+  font-size:30px;
+  color:#ffffff;
+  background:#1C1C1C;
+  padding:5px;
   margin:10px 0px;
   width:180px;
 }
@@ -110,8 +118,25 @@ h4 a:hover {
 }
 
 #gigs {
-  padding-top:10px;
+  padding:10px;
   width:590px;
+  background-color:rgba(255,255,255,0.66);
+}
+
+.feed-item-title a {
+  color:#1C1C1C;
+  font-size:15px;
+}
+
+.feed-item-desc {
+  color:#1C1C1C;
+  font-size:12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #B7AAAC;
+}
+
+.rss2html-note {
+  display:none;
 }
 
 .profiles {
