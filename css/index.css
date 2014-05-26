@@ -1,5 +1,7 @@
 body {
   color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #1C1C1C;
   position: relative;
   background-color: #000;
   background-color: rgba(51, 69, 152, 0.1);
@@ -18,7 +20,6 @@ html {
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   body {
-    font-family: 'Montserrat', Arial, sans-serif;
     background-image: url('../images/bg@2x.jpg');
     background-size: 1400px 934px;
   }
@@ -29,17 +30,14 @@ a {
 }
 
 p {
-  font-family: 'Montserrat', Arial, sans-serif;
   size: 12px;
 }
 
 h1 {
-  font-family: 'Montserrat', Arial, sans-serif;
   font-size: 41px;
   line-height: 28px;
   padding: 10px;
   color: #fff;
-  background:#1C1C1C;
   width:570px;
 }
 
@@ -60,11 +58,19 @@ h2 {
   margin:0px;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 h4 {
-  font-family: 'Montserrat', Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
-  color: #1C1C1C;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 h4 a {
@@ -132,11 +138,23 @@ h4 a:hover {
   color:#1C1C1C;
   font-size:12px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #B7AAAC;
+  /*border-bottom: 1px solid #B7AAAC;*/
 }
 
 .rss2html-note {
   display:none;
+}
+
+.promo {
+  height:200px;
+  color:#fff;
+  font-weight:200;
+  padding-bottom: 30px;
+}
+
+.promo img {
+  float: right;
+  margin: 0px 18px 20px 0px;
 }
 
 .profiles {
