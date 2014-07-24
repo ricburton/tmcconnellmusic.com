@@ -13,7 +13,7 @@
 			height:100%;
 		}
 
-		#spotify {
+		#soundcloud {
 		    text-align: center;
 		    padding-right: 35px;
 		    margin-bottom: 50px;
@@ -26,8 +26,55 @@
 		}
 
     #itunes {
-      margin: 10px 0 30px 0;
+    		
+
+	    -webkit-animation: fadein 5s; /* Safari and Chrome */
+	       -moz-animation: fadein 5s; /* Firefox */
+	        -ms-animation: fadein 5s; /* Internet Explorer */
+	         -o-animation: fadein 5s; /* Opera */
+	            animation: fadein 5s;
+
+	            -webkit-animation-delay: 3s; /* Safari and Chrome */
+					    animation-delay: 3s;
+
+	            
+      margin: 60px 0 30px 0;
       padding-right: 35px;
+    }
+
+
+    #mc_embed_signup .email {
+      /*border: 3px solid white;*/
+      border: none;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 30px;
+      color: #ffffff;
+      background: #2493A0;
+      padding: 5px;
+      margin:10px;
+      width:370px;
+
+      -moz-border-radius:10px; /* Firefox */
+      -webkit-border-radius: 10px; /* Safari, Chrome */
+      -khtml-border-radius: 10px; /* KHTML */
+      border-radius: 10px; /* CSS3 */
+    }
+
+    #mc_embed_signup .button {
+      /*border: 3px solid white;*/
+      border: none;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 30px;
+      color: #ffffff;
+      background: #2493A0;
+      padding: 5px;
+      margin:10px 0px;
+      width:180px;
+
+      -moz-border-radius:10px; /* Firefox */
+      -webkit-border-radius: 10px; /* Safari, Chrome */
+      -khtml-border-radius: 10px; /* KHTML */
+      border-radius: 10px; /* CSS3 */
     }
 
 		@keyframes fadein {
@@ -80,14 +127,34 @@
 			<script type="text/javascript" charset="utf-8" src="tmcconnel_homepage.hyperesources/tmcconnelhomepage_hype_generated_script.js?22690"></script>
 		</div>
 	</div>
-
+  
   <div id="itunes" align="center">
     <a href="https://itunes.apple.com/us/album/handiwork-ep/id885222495">
       <img src="images/out_now_on_itunes.png" width="185" height="74">
     </a>
   </div>
 
-  <div id="spotify" align="center">
+
+  	<!-- Begin MailChimp Signup Form -->
+	<div style ="margin:20px auto 40px;width:900px;">
+		<div id="mc_embed_signup">
+		<form action="http://tmcconnellmusic.us3.list-manage.com/subscribe/post?u=2221914d608b847d6886a1384&amp;id=c75017beb2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<div class="mc-field-group" style="padding-left:140px;">
+		  <!-- <label for="mce-EMAIL">Your email </label> -->
+		  <input type="email" value="Your email..." name="EMAIL" class="required email" id="mce-EMAIL">
+		  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+		</div>
+		  <div id="mce-responses" class="clear">
+		    <div class="response" id="mce-error-response" style="display:none"></div>
+		    <div class="response" id="mce-success-response" style="display:none"></div>
+		  </div>
+		</form>
+		</div>
+	</div>
+	<!--End mc_embed_signup-->	
+
+
+  <div id="soundcloud" align="center">
     <iframe width="500px" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/149347150&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
   </div>
 
